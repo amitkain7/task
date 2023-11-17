@@ -5,7 +5,7 @@ const NewsLatter = () => {
     <div className='flex justify-center mt-6 '>
       <div className='grid place-items-center grid-cols-1 md:grid-cols-2 gap-3 bg-white rounded-lg mx-2 '>
         <div className='m-2 rounded-none'>
-          <img src="./public/assets/form-img.png" alt="newslatter" />
+          <img src="https://i.imgur.com/arHYJ1G.png" alt="newslatter" />
         </div>
         <div className='flex flex-col  gap-4 md:gap-0 pl-4 md:pl-0 justify-around items-start h-3/4 w-full'>
           <h1 className='text-2xl font-bold md:font-extrabold text-newslatterC'>Subscribe to our <br /> Newsletter!</h1>
