@@ -50,7 +50,7 @@ const Card = ({ value }) => {
   return (
     <div className=' box-border flex flex-col items-center text-center py-1 w-cardW h-cardH bg-white rounded-lg  '>
         <h1 className='mt-1 text-green-500'>{offer}</h1>  
-        <img   src="./public/assets/ama.png" alt="amalogo" width={'100px'} />
+        <img   src="./public/ama.png" alt="amalogo" width={'100px'} />
         <p className='text-sm mb-2 text-gray-400'>{summeroffer}</p>
         <button className='bg-buttonBG text-white text-sm rounded-md w-3/4 py-2 '>{button}</button>
     </div>
