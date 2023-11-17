@@ -46,7 +46,7 @@ const DealItem = ({value}) => {
   const { name , off , button} = value
   return (
     <div className='flex flex-col items-center text-center w-cardW2 h-dealH bg-white  mb-4'>
-     <img  src="./src/assets/ama.png" alt="amazon" width={'80px'} />
+     <img  src="./public/assets/ama.png" alt="amazon" width={'80px'} />
      <h1>{name}</h1>
      <p className='text-sm text-green-500'>{off}</p>
      <button className='bg-buttonBG text-white text-sm py-2 w-3/4 rounded-md my-1'>{button}</button>

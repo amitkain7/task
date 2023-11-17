@@ -5,10 +5,10 @@ const Footer = () => {
     <div id='footer' className=' flex justify-center w-full bg-menuColor mt-4 '>
       <div className='w-3/4 flex justify-around p-4 flex-wrap gap-4'>
         <div className='flex flex-col gap-3 justify-center items-start'>
-          <img src="./src/assets/foo.png" alt="logo"  />
+          <img src="./public/assets/foo.png" alt="logo"  />
           <p className='text-sm text-white'>Lorem Ipsum is simply dummy of <br /> the printing and type setting.</p>
           <div className='flex bg-white p-1  gap-1 rounded-md cursor-pointer '>
-            <img src="./src/assets/image 64.png" alt="appstore" className='w-6 h-6'/>
+            <img src="./public/assets/image 64.png" alt="appstore" className='w-6 h-6'/>
             <div className='flex flex-col '>
               <p className='text-xs font-light text-gray-700'>Download From</p>
               <p className='text-xs'>APP STORE</p>
@@ -16,7 +16,7 @@ const Footer = () => {
 
           </div>
           <div className='flex bg-white p-1 gap-1 rounded-md cursor-pointer '>
-            <img src="./src/assets/image 64 (1).png" alt="palystore" className='w-6 h-6' />
+            <img src="./public/assets/image 64 (1).png" alt="palystore" className='w-6 h-6' />
             <div className='flex flex-col '>
               <p className='text-xs font-light text-gray-700'>Download From</p>
               <p className='text-xs'>PLAY STORE</p>

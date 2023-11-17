@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='flex flex-col py-5  sticky top-0 z-10  ' style={blur}>
       <div className='flex gap-3 mx-2  md:justify-around  items-center'>
         <div>
-          <img src="./src/assets/logo.png" alt="logo" />
+          <img src="./public/assets/logo.png" alt="logo" />
         </div>
         <div className='flex gap-1  md:gap-4  items-center bg-searchBG  rounded-lg p-2 w-1/2  md:w-searchW   '>
           <CiSearch />
